@@ -9,3 +9,14 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+
+h1{
+  font-size: 50px;
+  margin: 0;
+  background-image: linear-gradient(to left, rgb(153, 130, 238), rgb(0, 130, 130));
+  color: white;
+}
+img{
+  width: 300px;
+}
