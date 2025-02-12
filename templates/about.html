@@ -2,10 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
         <title>My Website - About</title>
     </head>
     <body>
         <h1>Kevonteh Brown</h1>
+        <img src="{{ url_for('static', filename='robot.jpg') }}" alt="robot" />
         <p>
             
             Kevonteh is passionate about robotics and constantly seeks to expand his knowledge in the field.<br>
@@ -14,5 +16,6 @@
             Whether working on autonomous drones, AI-driven systems, or cutting-edge robotics projects, I always eager to grow, adapt,
             and make a meaningful impact through his work.
         </p>
+   
     </body>
 </html>
